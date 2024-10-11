@@ -1,0 +1,23 @@
+{
+  "name": "bigint-utils",
+  "version": "0.0.1",
+  "description": "Utilities to handle bigints in web3 applications.",
+  "main": "index.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest"
+  },
+  "author": "sukhsinghcodes",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sukhsinghcodes/bigint-utils"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.5.13",
+    "@types/node": "^22.7.5",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.2.5",
+    "typescript": "^5.6.3"
+  }
+}
