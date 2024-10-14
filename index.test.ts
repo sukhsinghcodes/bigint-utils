@@ -13,6 +13,12 @@ describe('bigint-utils', () => {
     expect(x.toString()).toBe('100.123456')
   })
 
+  it('should initialise with the correct precision with decimal number', () => {
+    const x = new BigNumber('100.123456')
+    expect(x.value).toBe(100123456n)
+    expect(x.toString()).toBe('100.123456')
+  })
+
   it('should multiply two numbers', () => {
     const result = BN(2).mul(3)
     expect(result.toString()).toBe('6')
