@@ -1,6 +1,6 @@
 {
   "name": "@durhailay/bigint-utils",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Utilities to handle bigints in web3 applications.",
   "main": "dist/index.js",
   "files": [
