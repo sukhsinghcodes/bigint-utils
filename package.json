@@ -2,7 +2,10 @@
   "name": "@durhailay/bigint-utils",
   "version": "0.0.1",
   "description": "Utilities to handle bigints in web3 applications.",
-  "main": "index.ts",
+  "main": "dist/index.js",
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "build": "tsc",
     "test": "jest"
