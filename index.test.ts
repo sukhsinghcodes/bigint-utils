@@ -1,4 +1,4 @@
-import { BigNumber, BN } from '.'
+import { BigNumber, BN } from './index'
 
 describe('bigint-utils', () => {
   it('should initialise with the correct precision', () => {
