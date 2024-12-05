@@ -1,17 +1,17 @@
-# bigint-utils
+# @crypto-utils/bigint
 
 A super lightweight library to handle bigints in web3 applications.
 
 ## Installation
 
 ```bash
-npm install @durhailay/bigint-utils
+npm install @crypto-utils/bigint
 ```
 
 ## Usage
 
 ```typescript
-import { BigNumber } from '@durhailay/bigint-utils'
+import { BigNumber } from '@crypto-utils/bigint'
 
 const bn = new BigNumber(1234567891011123456789n, 18)
 ```
