@@ -1,6 +1,6 @@
 {
   "name": "@crypto-utils/bigint",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Utilities to handle bigints in web3 applications.",
   "main": "dist/index.js",
   "files": [
